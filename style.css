@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.container{
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 90%;
+    max-width: 450px;
+}
+
+.box-media{
+    margin-top: 20px;
+}
+
+.box-menor{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    color: beige;
+    width: calc(100% - 50px);
+
+}
+
+.botao-buscar{
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    float: right;
+    cursor: pointer;
+
+}
+
+.img-buscar{
+    width: 18px;
+}
+
+.cidade{
+    color: beige;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp{
+    color: beige;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.previsao{
+    color: beige;
+    margin-left: 20px;
+    font-weight: 500;
+    text-transform: capitalize; /*Primeira letra em maiusculo*/
+}
+
+.umidade{
+    margin-top: 20px;
+    color: beige;
+    font-weight: 200;
+}
